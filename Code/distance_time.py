@@ -20,10 +20,10 @@ def get_distance_and_time(api_key, origin_address, destination_address):
     )
 
     # Extract the distance from the result
-    distance = result['rows'][0]['elements'][0]['distance']['text']
+    # distance = result['rows'][0]['elements'][0]['distance']['text']
     duration = result['rows'][0]['elements'][0]['duration']['text']
 
-    return distance, duration
+    return duration
 
 # Replace 'YOUR_API_KEY' with your actual Google Maps API key
 api_key = 'AIzaSyDdOtd4C4C32UcKZihI70BSf8bcdzQYqXs'
@@ -31,4 +31,18 @@ api_key2 = 'AIzaSyDZZXA299PDImjwzm65wfx4rrDnUsa-T9Q'
 origin_address = '1328 Campus Drive, Durham, NC 27705'  # Googleplex
 destination_address = '1312 Campus Drive, Durham, NC 27705'  # Apple Campus
 
-distance, duration = get_distance_and_time(api_key, origin_address, destination_address)
+duration = get_distance_and_time(api_key, origin_address, destination_address)
+
+my_dict = {}
+
+for index, row in df.iterrows():
+    if row['Name'] not in my_dict:
+        my_dict[row['Name']] = {}
+
+for val in my_dict:
+    origin = df.loc[df['Name'] == val, 'Address'].iloc[0]
+    for index, row in df.iterrows():
+        if val == row['Name']:
+            continue
+        else:
+            my_dict[val][row['Name']] = get_distance_and_time(api_key, origin, row['Address'])
