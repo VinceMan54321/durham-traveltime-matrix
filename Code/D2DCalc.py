@@ -19,7 +19,7 @@ Output: a start location, and a list with each row containing a location, travel
 
 #read csv 
 import pandas as pd
-#df = pd.read_csv ('location_dataset')
+#locations_df = pd.read_csv ('location_dataset')
 
 
 
@@ -27,5 +27,13 @@ import pandas as pd
 def door_to_door_updates(start, matrix): 
     dict = matrix[start]
     travel_time_df = pd.dataframe(list(dict.items()), Columns = ['Name', 'Time'])
+    merged_df = travel_time_df.merge(locations_df, how = "outer", on = "Name")
+    for ind in merged_df.index
+        #C1 wait time
+            #Check if weekday or weekend
+            #check if it is morning or night
+        #if dorm 
+            #add exit dorm time 
+        
     
 
