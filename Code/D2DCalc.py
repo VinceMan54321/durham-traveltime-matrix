@@ -79,7 +79,7 @@ def calculate_mean_travel_time(times_df):
     return time
 
 # -----------Baseline Descriptive Stats------------------#
-
+'''
 #average time to get to other places on West campus with GMaps
 GMap_west = baseline_df.loc[baseline_df['Campus'] == "West"]
 baseline_west_time = calculate_mean_travel_time(GMap_west)
@@ -102,10 +102,11 @@ baseline_std = baseline_df["Time"].std()
 #print(baseline_max)
 #print(baseline_min)
 #print(baseline_std)
-
+'''
 
 
 #-------------D2D Model Descriptive Stats-----------------#
+'''
 #average time to get to other places on West campus with D2D calc
 D2D_west = updated_df.loc[updated_df['Campus'] == "West"]
 updated_west_time = calculate_mean_travel_time(D2D_west)
@@ -128,7 +129,7 @@ D2D_std = updated_df["Time"].std()
 #print(D2D_max)
 #print(D2D_min)
 #print(D2D_std)
-
+'''
 
 #--------------In_depth Stats----------------#
 '''
@@ -160,10 +161,10 @@ D2D_pooled_std = math.sqrt((rtd_var+ D2D_var)/2)
 base_pooled_std = math.sqrt((rtd_var + base_var)/2)
 
 D2D_cohen_D = D2D_mean_diff / D2D_pooled_std
-#print(D2D_cohen_D)
+print(D2D_cohen_D)
 
 base_cohen_D = base_mean_diff / base_pooled_std
-#print(base_cohen_D)
+print(base_cohen_D)
 '''
 
 #---------------VISUALIZATION--------------#

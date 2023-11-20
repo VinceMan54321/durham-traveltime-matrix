@@ -1,0 +1,83 @@
+Name,Time,Address,Grid
+Alspaugh,29,"1344 Campus Dr, Durham, NC 27705",19
+Bassett,28,"1332 Campus Drive, Durham, NC 27705",19
+Bell Tower,31,"40 Brodie Gym Drive, Durham, NC 27705",18
+Blackwell Dorm,28,"51 Brodie Gym Drive, Durham, NC 27705",19
+Brown Dorm,29,"1328 Campus Drive, Durham, NC 27705",19
+East House,27,"1312 Campus Drive, Durham, NC 27705",19
+Epworth Dorm,29,"2 Epworth Lane, Durham, NC 27705",19
+Gilbert-Addoms,29,"1368 Campus Drive, Durham, NC 27705",19
+Giles Dorm,28,"1352 Campus Drive, Durham, NC 27705",19
+Pegram,26,"1340 Campus Drive, Durham, NC 27705",19
+Randolph Dorm,30,"50 Brodie Gym Drive, Durham, NC 27705",19
+Southgate Dorm,30,"1400 West Main Street, Durham, NC 27705",18
+Trinity,31,"610 Broad Street, Durham, NC 27705",18
+West House,26,"1360 Campus Drive, Durham, NC 27705",19
+Wilson Dorm,28,"1320 Campus Drive, Durham, NC 27705",19
+300 Swift,24,"300 Swift Ave, Durham, NC 27705",28
+Craven Quad,11,"440 Chapel Dr, Durham, NC 27710",34
+Crowell Quad,11,"315 Towerview Drive, Durham, NC 27710",33
+Decker Tower,15,"109 Edens Drive, Durham, NC 27710",34
+Edens Quad,14,"113 Edens Drive, Durham, NC 27710",35
+Few Quad,15,"420 Chapel Drive, Durham, NC 27710",34
+Hollows B,16,"409 Towerview rd, Durham, NC 27710",44
+Keohane 4E,12,"427 Towerview rd, Durham, NC 27710",34
+Keohane Quad,11,"101 Wannamaker Drive, Durham, NC 27710",34
+Kilgo Quad,15,"104 Union Drive, Durham, NC 27710",34
+Wannamaker Quad,10,"102 Wannamaker Fire Lane, Durham, NC 27710",34
+Baldwin Auditorium,29,"1336 Campus Dr, Durham, NC 27705",9
+Bishop's House,28,"201 E Campus Union Dr, Durham, NC 27705",10
+Bivins Building,30,"2 Brodie Gym Dr, Durham, NC 27705",19
+Branson Hall,29,"5 Brodie Gym Dr, Durham, NC 27705",9
+Brodie Recreation Center,27,"Brodie Recreation Center, 20 Brodie Gym Dr, Durham, NC 27705",19
+Classroom Building,24,"1356 Campus Dr, Durham, NC 27705",19
+Crowell Building,25,"10 Epworth Dorm Ln, Durham, NC 27701",19
+East Duke Building,26,"1304 Campus Dr, Durham, NC 27705",29
+Friedl Building,24,"1316 Campus Dr, Durham, NC 27705",19
+Lilly Library,26,"1348 Campus Dr, Durham, NC 27708",19
+Mary Duke Biddle Music Building,28,"113 Mary Duke Biddle Music Bldg, Durham, NC 27708",9
+West Duke Building,25,"1364 Campus Dr, Durham, NC 27708",29
+White Lecture Hall,24,"Richard White Lecture Hall, 1308 Campus Dr, Durham, NC 27705",29
+Allen Building,13,"Allen bldg, Durham, NC 27710",34
+Biosciences Building,16,"130 Science Dr, Durham, NC 27708",23
+Brodhead Center,12,"416 Chapel Dr, Durham, NC 27710",34
+Bryan Center,16,"125 Science Dr, Durham, NC 27710",33
+Card Gymnasium,11,"330 Towerview Rd, Durham, NC 27705",43
+Duke Chapel,15,"401 Chapel Dr, Durham, NC 27708",34
+Fitzpatrick,18,"101 Science Dr, Durham, NC 27705",24
+Fuqua School of Business,21,"100 Fuqua Drive, Durham, NC 27708",32
+Gross Hall,15,"140 Science Dr, Durham, NC 27708",32
+Health and Wellness Center,10,"305 Towerview Rd, Durham, NC 27710",33
+Languages Building,14,"413 Chapel Dr, Durham, NC 27710",24
+LSRC,19,"308 Research Dr, Durham, NC 27710",23
+Old Chemistry Building,15,"415 Chapel Dr, Durham, NC 27705",24
+Penn Pavillion ,12,"107 Union Dr, Durham, NC 27710",33
+Bostock Library,15,"411 Chapel Dr, Durham, NC 27708",24
+Rubenstein Library,15,"411 Chapel Dr, Durham, NC 27705",34
+Reuben-Cooke Building,15,"417 Chapel Dr, Durham, NC 27710",24
+Sanford Building,13,"201 Science Dr, Durham, NC 27708",33
+Social Sciences Building,14,"Social Sciences Building, Durham, NC 27710",24
+Wilson Recreation ,11,"330 Towerview Rd, Durham, NC 27708",43
+Chipotle ,29,"2608 Erwin Rd Ste 144, Durham, NC 27705",2
+Sushi Love,31,"2812 Erwin Rd #204, Durham, NC 27705",12
+Devil's Pizzeria ,29,"742 9th St, Durham, NC 27705",8
+Wholefoods,25,"621 Broad St, Durham, NC 27705",18
+Smash Burger,29,"2608 Erwin Rd, Durham, NC 27705",2
+Exxon,25,"2500 Erwin Rd, Durham, NC 27705",3
+The University Inn,19,"502 Elf St, Durham, NC 27705",4
+Berkshire MainStreet,25,"704 15th St, Durham, NC 27705",6
+Burger Bach,31,"737 9th St #220, Durham, NC 27705",7
+Moge Tea,30,"760 9th St, Durham, NC 27705",8
+Nanaline Duke,22,"304 Research Dr, Durham, NC 27708",13
+Duke University Hospital,20,"2301 Erwin Rd, Durham, NC 27710",14
+Trent Hall,17,"330 Trent Dr, Durham, NC 27710",15
+Guasaca,29,"A-100, Erwin Square, 2200 W Main St, Durham, NC 27705",16
+Alpaca,28,"703A 9th St, Durham, NC 27705",17
+JB Duke Hotel,22,"230 Science Dr, Durham, NC 27708",42
+Bluezone Parking,11,"263 Wannamaker Dr, Durham, NC 27705",44
+Nasher Museum of Art,16,"2001 Campus Dr, Durham, NC 27701",36
+Duke Garden,21,"420 Anderson St, Durham, NC 27708",25
+Karsh Alumni Center,15,"2080 Duke University Rd, Durham, NC 27708",35
+Pascal Field House,18,"200 Pascal-Brooks Dr, Durham, NC 27705",53
+Washington Duke Inn,24,"3001 Cameron Blvd, Durham, NC 27705",52
+Hollows A,0,"407 Towerview rd, Durham, NC 27710",44
