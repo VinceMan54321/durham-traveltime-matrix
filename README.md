@@ -19,6 +19,7 @@ The Door the Door Calculator uses the preliminary routing data provided by the G
 ### Code 
 
 **D2DCalc.py** - This file does all of the calculations using the "Door_to_Door_updates" function. Further, below this function is all of the code used to evaluate the effectiveness of the two models. For evaluation: descriptive statistics, visualization, and Cohen differences are calculated. 
+**distance_time.py** - This file contains the code for calculating the distance (and time) between any 2 locations using the Google Maps API. Moreover, it also fills the dictionary that contains distance values for all location pairs.
 
 
 ### Datasets 
