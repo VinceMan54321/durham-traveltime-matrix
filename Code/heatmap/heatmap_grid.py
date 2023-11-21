@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# scanning csv data into df and outputting heatmap based off grid
+# initializing 6x10 grid with travel time values from dataset
 o = open("HeatMapModified.csv", "r")
 data = o.read().split('\n')
 data = data[1:-1]
@@ -12,6 +12,7 @@ for row in data:
     name, time, pos, x, y = row.split(",")
     grid[(int)(x)][(int)(y)] = float(time)
 
+# placing above grid into a df and outputting heatmap based off the df
 df = pd.DataFrame(np.array(grid), columns=["0","1","2","3","4","5","6","7","8","9"])
 sns.heatmap(df)
 plt.xlabel('Grid Column')

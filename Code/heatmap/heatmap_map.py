@@ -1,13 +1,16 @@
 import pandas as pd
-import geopandas as gpd
 import folium
 from folium.plugins import HeatMap
 
+# retrieves necessary columns from coordinate dataset outputted by coordinate_api.py
 df = pd.read_csv("address_coordinates.csv") 
-gdf = gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.longitude, df.latitude))
-duke_coords = (35.9993, -78.9382)
-m = folium.Map(location=duke_coords, zoom_start=14)
+df = df[["time", "latitude", "longitude"]]
 
-heat_data = [[point.xy[1][0], point.xy[0][0], time] for point, time in zip(gdf.geometry, gdf.time)]
+# centers folium map in the middle of Duke University
+duke_center = (36.0014, -78.9382)
+m = folium.Map(location=duke_center, zoom_start=14)
+
+# uses list comprehension to reorder columns to generate heatmap
+heat_data = [[lat, lng, time] for time, lat, lng in df.values.tolist()]
 HeatMap(heat_data).add_to(m)
 m.save("heatmap_map.html")
