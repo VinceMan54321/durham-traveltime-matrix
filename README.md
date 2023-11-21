@@ -25,6 +25,8 @@ The Door the Door Calculator uses the preliminary routing data provided by the G
 
 **Location_Dataset.csv** - initial dataset containing location info
 
+**RealTimeData.csv** - dataset showing travel times from Hollows A to other locations on campus collected through our travel times and the travel times of our friends living in Hollows
+
 
 
 ## Heatmap Visualizations
