@@ -46,3 +46,16 @@ for val in my_dict:
             continue
         else:
             my_dict[val][row['Name']] = get_distance_and_time(api_key, origin, row['Address'])
+
+
+# Hollows A dictionary creation 
+
+a_origin = "407 Towerview rd, Durham, NC 27710"
+
+a_my_dict['Hollows A'] = {}
+
+for index, row in df.iterrows():
+    if row['Name'] == 'Hollows A':
+        continue
+    else:
+        my_dict['Hollows A'][row['Name']] = int(get_distance_and_time(api_key, a_origin, row['Address']).split(' ')[0])
